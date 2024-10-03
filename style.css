@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
+body{
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx67gxJeJTR7bFDGckraLrpECOQP5N57v2yQ&s);
+    background-size: cover;
+    height:100vh;
+    
+}
+.parent-boys-girls{
+    display: flex;
+    justify-content: space-evenly;
+    
+    text-transform: uppercase;
+    margin-top:100px;
+
+
+}
+.girlscounter{
+    background-color: white;
+    border-radius: 10px;
+    width:290px;
+    height: 300px;
+    padding:10px;
+    transition:0.2s;
+}
+.girlscounter:hover{
+    border:5px solid black ;
+}
+.boyscounter{
+    background-color: white;
+    border-radius: 10px;
+    width:290px;
+    height: 300px;
+    padding:10px;
+}
+.boyscounter:hover{
+    border:5px solid black ;
+}
+
+.increment-btn{
+    border: none;
+    background-color: yellow;
+    border-radius: 10px;
+    color: rgb(17, 27, 24);
+    width: 100px;
+    height: 30px;
+    transition: 0.3s;
+}
+.increment-btn:hover{
+    -webkit-box-shadow: 10px 10px 43px 2px rgba(48,40,143,0.79);
+-moz-box-shadow: 10px 10px 43px 2px rgba(48,40,143,0.79);
+box-shadow: 10px 10px 43px 2px rgba(48,40,143,0.79);
+}
+#save-btn{
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    background-color: red;
+    width:60px;
+    height: 30px;
+    padding:5px;
+}
+#previous-entries{
+   margin:20px;
+   margin-right: 35px;
+}
+#previous-entrie{
+    margin:20px;
+    margin-right: 35px;
+ }
+
+@media screen  and (max-width:412px){
+    #previous-entries{
+        font-size: 10px;
+     }
+     #previous-entrie{
+         font-size: 10px;
+         margin-left: 40px;
+      }
+      .parent-boys-girls{
+        margin-top:200px;
+        margin-left: 10px
+      }
+      #save-btn{
+        display:block;
+        margin-left: 30%;
+        margin-top: 10px;
+      }
+      .boyscounter{
+       width:150px;
+       height:300px;
+      }
+      .girlscounter{
+        width:150px;
+        height:300px;
+       }
+       .boyscounter h1 {
+        font-size: 13px;
+       }
+       .boyscounter h3{
+        font-size:10px;
+       }
+       .girlscounter h1 {
+        font-size: 13px;
+       }
+       .girlscounter h3{
+        font-size:10px;
+       }
+       .boyscounter p{
+        margin-left:10px;
+        font-size: 5px;
+       }
+       .girlscounter p{
+        margin-left:10px;
+        font-size: 5px;
+       }
+       .boyscounter .increment-btn{
+        margin-top: 5px;
+       }
+}
+
